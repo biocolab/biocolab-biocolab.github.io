@@ -20,8 +20,9 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <h3><a href="{{ "www.musamohammadi.com" }}">{{ site.title | default: site.github.repository_name }}</a></h3>
+        <br>
+        <h3>{{ site.description | default: site.github.project_tagline }}</h3>
+        <h3><a href="www.musamohammadi.com">{{ site.title | default: site.github.repository_name }}</a></h3>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
